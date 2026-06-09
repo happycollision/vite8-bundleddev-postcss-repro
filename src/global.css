@@ -1,0 +1,15 @@
+:root {
+  --brand: #3366ff;
+}
+
+body {
+  margin: 0;
+  font-family: system-ui, sans-serif;
+}
+
+#app {
+  display: flex;
+  user-select: none;
+  padding: 1rem;
+  color: var(--brand);
+}
